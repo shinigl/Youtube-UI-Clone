@@ -109,7 +109,7 @@ button {
 
     &>li:hover {
         background-color: #333;
-        border-radius: 10px;
+        border-radius: 8px;
     }
 
     &>li {
@@ -173,6 +173,7 @@ hr {
     & > .card-cont > img{
         width: 300px;
         border-radius: 10px;
+        padding-bottom: 8px;
     }
     & > .card-cont > a{
         width: 290px;
