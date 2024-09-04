@@ -8,6 +8,7 @@
     color: white;
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
+    
 
 }
 
@@ -33,15 +34,9 @@ body {
     align-items: center;
 
     cursor: pointer;
-
-    &>p {
-        font-size: 30px;
-        font-weight: 400;
-        margin-left: -120px;
-        cursor: pointer;
-        font-family: Roboto;
-        font-weight: 400;
-    }
+}
+.yt{
+    margin-left: -120px;
 }
 
 .logo {
@@ -96,7 +91,7 @@ button {
     padding: 30px 0;
     padding-left: 10px;
     padding-right: 10px;
-    gap: 100px;
+    gap: 30px;
 }
 
 
@@ -112,6 +107,11 @@ button {
         border-radius: 10px;
     }
 
+    &>li:hover {
+        background-color: #333;
+        border-radius: 10px;
+    }
+
     &>li {
         font-size: 15px;
         display: flex;
@@ -120,7 +120,6 @@ button {
         cursor: pointer;
     }
 }
-
 .nav-cont {
     width: 220px;
 }
@@ -159,5 +158,41 @@ hr {
         }
     }
 }
+
+.video-cont{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    
+    & > .card-cont{
+        padding: 0 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    cursor: pointer;
+    & > .card-cont > img{
+        width: 300px;
+        border-radius: 10px;
+    }
+    & > .card-cont > a{
+        width: 290px;
+        text-decoration: none;
+    }
+
+    & > .card-cont > a:hover{
+        color: #b8b1b1;
+    }
+        
+    }
+    
+    .channel{
+      font-size: 15px;
+      color: rgba(163, 166, 169, 0.958);
+    }
+    .views{
+        font-size: 12px;
+        color: rgba(163, 166, 169, 0.958);
+    }
+
 
 
