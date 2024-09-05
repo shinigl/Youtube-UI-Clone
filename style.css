@@ -163,14 +163,23 @@ hr {
     flex-wrap: wrap;
     display: flex;
     gap: 20px;
+   
     
     & > .card-cont{
+        
+        height: 310px;
         padding: 0 30px;
         display: flex;
         flex-direction: column;
     }
+    & > .card-cont:hover{
+        background-color: rgb(26, 27, 27);
+        border-radius: 10px;
+    }
     cursor: pointer;
     & > .card-cont > img{
+        margin-top: 10px ;
+       
         width: 300px;
         border-radius: 10px;
         padding-bottom: 8px;
